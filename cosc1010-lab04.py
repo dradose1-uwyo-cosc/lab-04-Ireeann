@@ -1,9 +1,9 @@
-# Your Name Here
+# Ireeann Anderson
 # UWYO COSC 1010
 # Submission Date
 # Lab 03 
-# Lab Section: 
-# Sources, people worked with, help given to: 
+# Lab Section: 16
+# Sources, people worked with, help given to: Logan Cabanaw
 # your
 # comments
 # here
@@ -99,7 +99,28 @@ min_temps = [
 # You cannot use any pre-existing functions (like mean()) and must perform the calculations manually.
 # Output the results of both calculations.
 
-# For the next part, determine the highest and lowest recorded temperatures.
+max_count = 0
+max_sums = 0
+for max_temp in max_temps:
+    max_sums += max_temp
+
+print(max_sums / len(max_temps))
+
+min_count = 0
+min_sums = 0
+for min_temp in min_temps:
+    min_sums += min_temp
+
+print(min_sums / len(min_temps))
+
+#x For the next part, determine the highest and lowest recorded temperatures.
 # HINT: You can find this information without using any logic or looping.
+
+max_temps.sort()
+print(f'the lowest max temperature is {max_temps[0]}')
+print(f'the highest max temperature is {max_temps[-1]}')
+min_temps.sort()
+print(f'the highest minumum temperature is {min_temps[-1]}')
+print(f'the lowest minimum temperature is {min_temps[0]}')
 
 
