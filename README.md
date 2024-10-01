@@ -1,8 +1,8 @@
-# [Name]
-## [Assignment #]
-## [Submission date: MM/DD/YY]
+# [Ireeann Anderson]
+## [Assignment 4]
+## [Submission date: 09/30/24]
 ## Worked with/sources 
-* example
+* Logan Cabanaw
 * example
 * example
 * example
