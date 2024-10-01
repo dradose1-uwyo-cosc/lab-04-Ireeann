@@ -1,5 +1,5 @@
 # [Ireeann Anderson]
-## [Assignment 4]
+## [Lab 4]
 ## [Submission date: 09/30/24]
 ## Worked with/sources 
 * Logan Cabanaw
